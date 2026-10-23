@@ -1,0 +1,23 @@
+# Every push that changes the app files republishes them as the "latest"
+# release, so the links in the README (and on the website) always serve the
+# newest version.
+name: release
+on:
+  push:
+    branches: [main]
+    paths: ['FALQUI-*.apk', 'FALQUI.ipa']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view latest >/dev/null 2>&1 || gh release create latest --latest \
+            --title "FALQUI For NDI (ultima versione)" \
+            --notes "Android: FALQUI-arm64.apk (quasi tutti i telefoni) o FALQUI-armv7.apk (dispositivi vecchi). iPhone e iPad: FALQUI.ipa, da installare con Sideloadly."
+          gh release upload latest FALQUI-arm64.apk FALQUI-armv7.apk FALQUI.ipa --clobber

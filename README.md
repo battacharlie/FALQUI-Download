@@ -4,8 +4,15 @@ Qui si scarica l'ultima versione di **FALQUI For NDI**, l'app per vedere, ascolt
 
 | Dispositivo | File |
 | --- | --- |
-| Android | Temporaneamente non disponibile: la nuova versione è in preparazione. |
+| Android, quasi tutti i telefoni (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |
+| Android, dispositivi vecchi (armv7) | [FALQUI-armv7.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-armv7.apk) |
 | iPhone e iPad (iOS 16+, con Sideloadly) | [FALQUI.ipa](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI.ipa) |
+
+## Versione 2.0 e scuse per le versioni 1.x
+
+Ci scusiamo con chi ha scaricato le prime versioni Android (1.x): spesso non funzionavano o non si aggiornavano. Il motivo era la firma digitale dell'app: ogni versione 1.x era firmata con una chiave diversa, quindi Android non la accettava come aggiornamento di quella già installata. Le versioni 1.x sono state ritirate.
+
+Dalla versione 2.0 tutte le versioni hanno la stessa firma. **Se avevi installato una versione precedente, disinstallala una volta** e poi installa la 2.0: i prossimi aggiornamenti si installeranno sopra senza problemi.
 
 Un progetto di [andreabattaglioli.it](https://www.andreabattaglioli.it/), powered by [mywebtvlive.com](https://www.mywebtvlive.com/). Made in Bolognina.
 

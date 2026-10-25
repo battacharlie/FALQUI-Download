@@ -1,4 +1,8 @@
+![FALQUI For NDI](https://github.com/battacharlie/FALQUI-Download/raw/main/images/falqui-telefoni-en.webp)
+
 Android: FALQUI-arm64.apk (arm64) · FALQUI-armv7.apk (armv7) · iPhone / iPad: FALQUI.ipa (Sideloadly) · Windows: FALQUI-Setup.exe (installer) · FALQUI-Windows.zip (portable)
+
+Brochure (PDF): [IT](https://github.com/battacharlie/FALQUI-Download/raw/main/brochure/FALQUI-For-NDI-2.0-brochure-it.pdf) · [EN](https://github.com/battacharlie/FALQUI-Download/raw/main/brochure/FALQUI-For-NDI-2.0-brochure-en.pdf) · [ES](https://github.com/battacharlie/FALQUI-Download/raw/main/brochure/FALQUI-For-NDI-2.0-brochure-es.pdf) · [FR](https://github.com/battacharlie/FALQUI-Download/raw/main/brochure/FALQUI-For-NDI-2.0-brochure-fr.pdf) · [AR](https://github.com/battacharlie/FALQUI-Download/raw/main/brochure/FALQUI-For-NDI-2.0-brochure-ar.pdf) · [ZH](https://github.com/battacharlie/FALQUI-Download/raw/main/brochure/FALQUI-For-NDI-2.0-brochure-zh.pdf)
 
 ### Italiano
 

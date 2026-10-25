@@ -4,6 +4,10 @@
 
 Aquí se descarga la última versión de **FALQUI For NDI**, la app para ver, escuchar y mezclar las fuentes NDI® de la red desde smartphones, tabletas y PC con Windows.
 
+![FALQUI For NDI: vista única, multiview y modo estudio](images/falqui-telefoni-es.webp)
+
+[📄 Folleto (PDF)](brochure/FALQUI-For-NDI-2.0-brochure-es.pdf)
+
 | Dispositivo | Archivo |
 | --- | --- |
 | Android, casi todos los teléfonos (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |

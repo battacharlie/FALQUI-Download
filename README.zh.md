@@ -4,6 +4,10 @@
 
 在这里下载 **FALQUI For NDI** 的最新版本：一款在智能手机和平板上观看、收听和混合网络中 NDI® 信号源的应用。
 
+![FALQUI For NDI：单画面、多画面和演播室模式](images/falqui-telefoni-zh.webp)
+
+[📄 宣传册 (PDF)](brochure/FALQUI-For-NDI-2.0-brochure-zh.pdf)
+
 | 设备 | 文件 |
 | --- | --- |
 | Android，几乎所有手机 (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |

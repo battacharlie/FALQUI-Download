@@ -6,6 +6,10 @@
 
 من هنا يمكنك تنزيل أحدث إصدار من **FALQUI For NDI**، التطبيق لمشاهدة مصادر NDI® في الشبكة والاستماع إليها ومزجها من الهاتف الذكي أو الجهاز اللوحي.
 
+![FALQUI For NDI: العرض الفردي والعرض المتعدد ووضع الاستوديو](images/falqui-telefoni-ar.webp)
+
+[📄 الكتيّب (PDF)](brochure/FALQUI-For-NDI-2.0-brochure-ar.pdf)
+
 | الجهاز | الملف |
 | --- | --- |
 | أندرويد، معظم الهواتف (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |

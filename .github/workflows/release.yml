@@ -20,4 +20,12 @@ jobs:
           gh release view latest >/dev/null 2>&1 || gh release create latest --latest \
             --title "FALQUI For NDI (ultima versione)" \
             --notes "Android: FALQUI-arm64.apk (quasi tutti i telefoni) o FALQUI-armv7.apk (dispositivi vecchi). iPhone e iPad: FALQUI.ipa, da installare con Sideloadly."
-          gh release upload latest FALQUI-arm64.apk FALQUI-armv7.apk FALQUI.ipa --clobber
+          # Upload the files in the repo; a file removed from the repo is
+          # withdrawn from the release too.
+          for f in FALQUI-arm64.apk FALQUI-armv7.apk FALQUI.ipa; do
+            if [ -f "$f" ]; then
+              gh release upload latest "$f" --clobber
+            else
+              gh release delete-asset latest "$f" --yes 2>/dev/null || true
+            fi
+          done

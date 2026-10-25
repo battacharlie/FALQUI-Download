@@ -4,13 +4,15 @@
 
 [Italiano](README.md) · [English](README.en.md) · [Español](README.es.md) · [Français](README.fr.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
-من هنا يمكنك تنزيل أحدث إصدار من **FALQUI For NDI**، التطبيق لمشاهدة مصادر NDI® في الشبكة والاستماع إليها ومزجها من الهاتف الذكي أو الجهاز اللوحي.
+من هنا يمكنك تنزيل أحدث إصدار من **FALQUI For NDI**، التطبيق لمشاهدة مصادر NDI® في الشبكة والاستماع إليها ومزجها من الهاتف الذكي أو الجهاز اللوحي أو حاسوب ويندوز.
 
 | الجهاز | الملف |
 | --- | --- |
 | أندرويد، معظم الهواتف (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |
 | أندرويد، الأجهزة القديمة (armv7) | [FALQUI-armv7.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-armv7.apk) |
 | آيفون وآيباد (iOS 16 أو أحدث، باستخدام Sideloadly) | [FALQUI.ipa](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI.ipa) |
+| ويندوز 10 و11 (64 بت)، برنامج التثبيت | [FALQUI-Setup.exe](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-Setup.exe) |
+| ويندوز، نسخة محمولة (بدون تثبيت) | [FALQUI-Windows.zip](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-Windows.zip) |
 
 ## الإصدار 2.0 واعتذار عن الإصدارات 1.x
 

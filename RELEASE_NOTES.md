@@ -1,4 +1,4 @@
-Android: FALQUI-arm64.apk (arm64) · FALQUI-armv7.apk (armv7) · iPhone / iPad: FALQUI.ipa (Sideloadly)
+Android: FALQUI-arm64.apk (arm64) · FALQUI-armv7.apk (armv7) · iPhone / iPad: FALQUI.ipa (Sideloadly) · Windows: FALQUI-Setup.exe (installer) · FALQUI-Windows.zip (portable)
 
 ### Italiano
 

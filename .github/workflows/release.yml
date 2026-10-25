@@ -5,7 +5,7 @@ name: release
 on:
   push:
     branches: [main]
-    paths: ['FALQUI-*.apk', 'FALQUI.ipa', 'RELEASE_NOTES.md']
+    paths: ['FALQUI-*.apk', 'FALQUI.ipa', 'FALQUI-Setup.exe', 'FALQUI-Windows.zip', 'RELEASE_NOTES.md']
   workflow_dispatch:
 permissions:
   contents: write
@@ -22,7 +22,7 @@ jobs:
           gh release edit latest --title "$title" --notes-file RELEASE_NOTES.md
           # Upload the files in the repo; a file removed from the repo is
           # withdrawn from the release too.
-          for f in FALQUI-arm64.apk FALQUI-armv7.apk FALQUI.ipa; do
+          for f in FALQUI-arm64.apk FALQUI-armv7.apk FALQUI.ipa FALQUI-Setup.exe FALQUI-Windows.zip; do
             if [ -f "$f" ]; then
               gh release upload latest "$f" --clobber
             else

@@ -5,7 +5,7 @@ name: release
 on:
   push:
     branches: [main]
-    paths: ['FALQUI-*.apk', 'FALQUI.ipa']
+    paths: ['FALQUI-*.apk', 'FALQUI.ipa', 'RELEASE_NOTES.md']
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,11 +18,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           title="FALQUI For NDI 2.0"
-          notes="Android: FALQUI-arm64.apk (quasi tutti i telefoni) o FALQUI-armv7.apk (dispositivi vecchi). iPhone e iPad: FALQUI.ipa, da installare con Sideloadly.
-
-          Ci scusiamo con chi ha scaricato le versioni Android 1.x: spesso non funzionavano o non si aggiornavano, perché ogni versione era firmata con una chiave digitale diversa e Android non la accettava come aggiornamento. Le 1.x sono state ritirate. Dalla 2.0 la firma è sempre la stessa: se avevi una versione precedente, disinstallala una volta e installa la 2.0, poi gli aggiornamenti si installeranno sopra."
-          gh release view latest >/dev/null 2>&1 || gh release create latest --latest --title "$title" --notes "$notes"
-          gh release edit latest --title "$title" --notes "$notes"
+          gh release view latest >/dev/null 2>&1 || gh release create latest --latest --title "$title" --notes-file RELEASE_NOTES.md
+          gh release edit latest --title "$title" --notes-file RELEASE_NOTES.md
           # Upload the files in the repo; a file removed from the repo is
           # withdrawn from the release too.
           for f in FALQUI-arm64.apk FALQUI-armv7.apk FALQUI.ipa; do

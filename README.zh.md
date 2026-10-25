@@ -2,7 +2,7 @@
 
 [Italiano](README.md) · [English](README.en.md) · [Español](README.es.md) · [Français](README.fr.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
-在这里下载 **FALQUI For NDI** 的最新版本：一款在智能手机和平板上观看、收听和混合网络中 NDI® 信号源的应用。
+在这里下载 **FALQUI For NDI** 的最新版本：一款在智能手机、平板和 Windows 电脑上观看、收听和混合网络中 NDI® 信号源的应用。
 
 ![FALQUI For NDI：单画面、多画面和演播室模式](images/falqui-telefoni-zh.webp)
 
@@ -13,6 +13,8 @@
 | Android，几乎所有手机 (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |
 | Android，较旧的设备 (armv7) | [FALQUI-armv7.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-armv7.apk) |
 | iPhone 和 iPad（iOS 16 及以上，使用 Sideloadly） | [FALQUI.ipa](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI.ipa) |
+| Windows 10 和 11（64 位），安装程序 | [FALQUI-Setup.exe](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-Setup.exe) |
+| Windows 便携版（无需安装） | [FALQUI-Windows.zip](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-Windows.zip) |
 
 ## 2.0 版本及对 1.x 版本的致歉
 

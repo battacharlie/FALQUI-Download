@@ -2,7 +2,7 @@
 
 [Italiano](README.md) · [English](README.en.md) · [Español](README.es.md) · [Français](README.fr.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
-Qui si scarica l'ultima versione di **FALQUI For NDI**, l'app per vedere, ascoltare e mixare le sorgenti NDI® della rete da smartphone e tablet.
+Qui si scarica l'ultima versione di **FALQUI For NDI**, l'app per vedere, ascoltare e mixare le sorgenti NDI® della rete da smartphone, tablet e PC Windows.
 
 ![FALQUI For NDI: vista singola, multiview e modalità studio](images/falqui-telefoni-it.webp)
 
@@ -13,6 +13,8 @@ Qui si scarica l'ultima versione di **FALQUI For NDI**, l'app per vedere, ascolt
 | Android, quasi tutti i telefoni (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |
 | Android, dispositivi vecchi (armv7) | [FALQUI-armv7.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-armv7.apk) |
 | iPhone e iPad (iOS 16+, con Sideloadly) | [FALQUI.ipa](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI.ipa) |
+| Windows 10 e 11 (64 bit), installer | [FALQUI-Setup.exe](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-Setup.exe) |
+| Windows, versione portatile (senza installazione) | [FALQUI-Windows.zip](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-Windows.zip) |
 
 ## Versione 2.0 e scuse per le versioni 1.x
 

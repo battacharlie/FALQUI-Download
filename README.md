@@ -1,5 +1,7 @@
 # FALQUI For NDI: download
 
+[Italiano](README.md) · [English](README.en.md) · [Español](README.es.md) · [Français](README.fr.md) · [العربية](README.ar.md) · [中文](README.zh.md)
+
 Qui si scarica l'ultima versione di **FALQUI For NDI**, l'app per vedere, ascoltare e mixare le sorgenti NDI® della rete da smartphone e tablet.
 
 | Dispositivo | File |

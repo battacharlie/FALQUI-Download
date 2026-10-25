@@ -4,6 +4,10 @@
 
 Download the latest version of **FALQUI For NDI**, the app to watch, listen to and mix the NDI® sources on your network from smartphones and tablets.
 
+![FALQUI For NDI: single view, multiview and studio mode](images/falqui-telefoni-en.webp)
+
+[📄 Brochure (PDF)](brochure/FALQUI-For-NDI-2.0-brochure-en.pdf)
+
 | Device | File |
 | --- | --- |
 | Android, almost all phones (arm64) | [FALQUI-arm64.apk](https://github.com/battacharlie/FALQUI-Download/releases/latest/download/FALQUI-arm64.apk) |
